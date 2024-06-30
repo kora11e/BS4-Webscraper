@@ -31,3 +31,9 @@ pip install bs4 pathlib pandas numpy regex os requests selenium shutil pyspark
 3. Download the project and open it in the IDE
 4. Move to the last cell and select option "Execute above cells" then execute the last cell separately.
 
+<h2> Project Explanation </h2>
+Webscraper provides code that first checks if the website uses captcha. Selenium module applies webdriver that controls presence or absence of the anti-bot tools. The project then fetches website by getting link(s) from txt file containing list of websites. 
+
+Webscraper performs then data transformation, gradually preparing it for stadardization and warehouse storage. After that program combines multiple category and subcategory titles, urls storing them as Numpy arrays in pandas DataFrame and savving as .csv datasets. Scraper then performs a loop to find, encode and save image files into separate folder. 
+
+As the final step the program stores them in local pyspark database using dataset schema.
