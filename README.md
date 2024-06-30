@@ -2,11 +2,12 @@
 
 <h2> Overview </h2>
 
-The project is the implementation of webscraping on Wiki Fandom website.
+The project is the implementation of webscraping on Wiki Fandom website structure.
 
 <h2> Motivation </h2>
 
-Webscraper aims to utilize handful of Python tools and libraries to scrape data. The program can scroll through and download all valuable information, then store them into pandas dataframe (keywords, links, categories, statistics) and separate dedidacted folder (images).
+Webscraper aims to utilize handful of Python tools and libraries to scrape data. The program can scroll through and download all valuable information, then store them into pandas dataframe (keywords, links, categories, statistics) and separate dedicated folder (images).
+Usage of PySpark is to apply more efficient data warehouse storage.
 
 <h2> Features </h2>
 
