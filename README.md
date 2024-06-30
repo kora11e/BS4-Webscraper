@@ -20,7 +20,11 @@ Usage of PySpark is to apply more efficient data warehouse storage.
 <h2> Instructions to run the program </h2>
 
 !!Note!!
-The Notebook was developed using built in VSCode Jupyter Extension. 
+The Notebook was developed using built in VSCode Jupyter Extension on Python 3.3. Oder versions might not support all features.
+In order to run the program use the following code snippet to install necessary libraries:
+```python
+pip install bs4 pathlib pandas numpy regex os requests selenium shutil pyspark
+```
 
 1. Download Jupyter Notebook or Visual Studio with community JN extension.
 2. Install necessary packages  - pip install bs4 numpy pygame helper matplotlib collections -
