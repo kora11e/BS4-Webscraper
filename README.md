@@ -16,6 +16,7 @@ Usage of PySpark is to apply more efficient data warehouse storage.
 3. Numpy data representation - every instance is stored in separate NParray.
 4. Data framing - native Pandas DataFrame composition of gathered data.
 5. Image downloader - snatches pictures on the website and stores their buffer representation in dedicated folder.
+6. Database automatic connection - direct transformation to dataframe suitable for Spark SQL.
    
 <h2> Instructions to run the program </h2>
 
